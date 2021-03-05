@@ -16,6 +16,8 @@ To use it and initialise a project use
 
 `npm install` to install npm packages
 
+Make sure to create your own .env file with your environment variables. Use the .env file as a template.
+
 ### Troubleshooting
 
 It's unlikely but still possible that the package.lock file may contain packages that are not compatible with your system due to this being developed on ubuntu so delete the package.lock and run `npm install` again if you get errors.

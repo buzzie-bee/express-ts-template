@@ -8,9 +8,17 @@ A personal boilerplate template to begin building express applications.
 
 To use it and initialise a project use
 
-`git clone https://www.github.com/buzzie-bee/express-ts-boilerplate {PROJECT_NAME}`
+`git clone --depth 1 https://www.github.com/buzzie-bee/express-ts-boilerplate {PROJECT_NAME}`
 
-`npm install`
+`rm -rf .git` to delete the git history from this template
+
+`git init` to initialise a new git repo
+
+`npm install` to install npm packages
+
+### Troubleshooting
+
+It's unlikely but still possible that the package.lock file may contain packages that are not compatible with your system due to this being developed on ubuntu so delete the package.lock and run `npm install` again if you get errors.
 
 ### Scripts
 

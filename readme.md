@@ -8,7 +8,7 @@ A personal boilerplate template to begin building express applications.
 
 To use it and initialise a project use
 
-`git clone --depth 1 https://www.github.com/buzzie-bee/express-ts-boilerplate {PROJECT_NAME}`
+`git clone --depth 1 https://github.com/buzzie-bee/express-ts-boilerplate {PROJECT_NAME}`
 
 `rm -rf .git` to delete the git history from this template
 
